@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: synergychat-api-configmap
+  namespace: default
+data:
+  API_PORT: "8080"
+---
