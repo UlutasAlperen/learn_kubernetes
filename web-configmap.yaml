@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myconfig
+data:
+  WEB_PORT: value
+  API_URL: http://synchatapi.internal
+---
