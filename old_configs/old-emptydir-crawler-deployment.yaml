@@ -43,11 +43,11 @@ spec:
             - mountPath: /cache
               name: cache-volume
           env:
-            - name: CRAWLER_PORT2
+            - name: CRAWLER_PORT
               valueFrom:
                 configMapKeyRef:
                   name: synergychat-crawler-configmap
-                  key: CRAWLER_PORT2
+                  key: CRAWLER_PORT_2
             - name: CRAWLER_KEYWORDS
               valueFrom:
                 configMapKeyRef:
@@ -64,11 +64,11 @@ spec:
             - mountPath: /cache
               name: cache-volume
           env:
-            - name: CRAWLER_PORT3
+            - name: CRAWLER_PORT
               valueFrom:
                 configMapKeyRef:
                   name: synergychat-crawler-configmap
-                  key: CRAWLER_PORT3
+                  key: CRAWLER_PORT_3
             - name: CRAWLER_KEYWORDS
               valueFrom:
                 configMapKeyRef:
