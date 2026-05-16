@@ -4,5 +4,6 @@ kind: ConfigMap
 metadata:
   name: testram-configmap
 data:
-  MEGABYTES: "200"
+  MEGABYTES: "10"
+  # MEGABYTES: "500"
 ---

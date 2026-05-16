@@ -6,6 +6,7 @@ metadata:
   labels:
     app: synergychat-web
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: synergychat-web
