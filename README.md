@@ -1,4 +1,4 @@
-# Minikube One Node Cluster — CKAD Çalışma Laboratuvarı
+# Minikube One Node Cluster — CKAD Çalışma Laboratuvarı - README.md semi ai created . Ilerde duzeltecegim 
 
 CKAD (Certified Kubernetes Application Developer) sınavı ve genel Kubernetes pratiği için oluşturulmuş 1-node Minikube cluster'ı. Gerçek bir 3-tier **SynergyChat** uygulaması üzerinden Deployment, Service, ConfigMap, Multi-container Pod, Volume, PVC, HPA ve Gateway API kavramlarını öğrenmeyi hedefler.
 
