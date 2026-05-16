@@ -6,4 +6,5 @@ metadata:
 data:
   API_PORT: "8080"
   API_DB_FILEPATH: /persist/db.json
+  CRAWLER_BASE_URL: http://crawler-service.crawler.svc.cluster.local
 ---
